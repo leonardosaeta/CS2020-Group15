@@ -1,0 +1,71 @@
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.greyBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1rem 1rem 1rem 1rem;
+    height: 50vh;
+    width: 45vh;
+}
+
+.logSection {
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.or {
+    margin: 0.5rem;
+    font-size: large;
+    color: white
+}
+
+.logIn {
+    font-size: x-large;
+    font-weight: bold;
+    color: white
+}
+
+input {
+    display: inline-block;
+    margin: 5%;
+    padding: 10px 15px;
+    width: auto;
+}
+
+label {
+    display: block;
+    margin: 0;
+}
+
+.username {
+    display: flex;
+}
+
+.password {
+    display: flex
+}
+
+.submit {
+    background-color: #58ACDB;
+    border-radius: 0.99em;
+    transition: 400ms;
+}
+
+.googleBtn {
+    width: 1rem;
+}
+
+.backHome {
+    margin: 2rem;
+    color: white;
+}
+
+.submit:hover {
+    transform: scale(1.2) perspective(0.5px);
+}
